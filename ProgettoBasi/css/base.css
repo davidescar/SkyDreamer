@@ -1,0 +1,279 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
+html {
+  overflow-y: scroll;
+  background: url(../images/sfondo.jpg) no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	font-family: 'Arvo', serif;
+}
+
+/*====== UTILITY ======*/
+
+.msgerror{
+	font-size: 1.1em;
+	color: #ff1d1d;
+	font-style: italic;
+}
+
+.descrQuery{
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.note{
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+/*====== HEADER ======*/
+
+#header{
+  position: relative;
+  margin-top: -1%;
+  margin-left: -1%;
+  padding-right: 1.5%;
+  z-index: 9999;
+  background: rgba(19, 35, 47, 0.9);
+  width: 100%;
+  height: 15%;
+  margin-bottom:10%;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  color: #ffffff;
+}
+
+#header div{
+  display: inline-block;
+}
+
+/*====== LOGO ======*/
+
+#logo{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 68%;
+	min-height: 7em;
+	background: url(../images/logoAereo.png) no-repeat;
+  background-position: 25% 50%;
+	background-size: 12%;
+}
+
+#logo h1 a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#logo h1 a:hover{
+  color: #c95601;
+  transition: 0.3s;
+}
+
+.title{
+  font-size: 3em;
+  text-align: right;
+  margin-right: 17%;
+  font-weight: bold;
+}
+
+.subtitle{
+  color: #ffffff;
+  margin-top: 0.2em;
+  font-size: 2em;
+  text-align: center;
+}
+
+/*====== LOGOUT ======*/
+
+#infolog{
+  position: relative;
+  left: 0%;
+  top: 0%;
+  width: 30%;
+  height: 15%;
+  margin: 0;
+}
+
+#infolog form{
+  margin-left: 0%;
+}
+
+#infolog form div{
+  display: inline-block;
+}
+
+#infolog form div{
+  margin-left: 8%;
+}
+
+#infolog form div p{
+  text-align: center;
+}
+
+#infolog form div input.button{
+  font-size: 1em;
+  width: 130%;
+}
+
+#infolog a{
+  color: #ffffff;
+}
+
+#infolog a:hover{
+  color: #c95601;
+  transition: 0.3s;
+}
+
+#infolog form #adm p span#boll_admin{
+  padding: 20%;
+  background: url(../images/bollino_1.png) no-repeat center;
+  background-size: contain;
+}
+
+#infolog form #adm p span#boll_utente{
+  padding: 20%;
+  background: url(../images/bollino_0.png) no-repeat center;
+  background-size: contain;
+}
+
+/*====== FORM ======*/
+
+.form{
+  color: #ffffff;
+  background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  max-width: 750px;
+  margin: 40px auto;
+  border-radius: 40px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.form p{
+  text-align: center;
+}
+
+/*====== SUBMIT & LINK ======*/
+
+.button {
+  border: 0;
+  outline: none;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Arvo', serif;
+  background: #de5f01;
+  color: #ffffff;
+  border-radius: 40px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+
+.button:hover, .button:focus {
+  background: #c95601;
+}
+
+.button-block {
+  display: block;
+  margin-left: 15%;
+  width: 70%;
+}
+
+select {
+  border: 0;
+  padding: 1% 0;
+  padding-left: 12%;
+  padding-right: 10%;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'Arvo', serif;
+  background: #de5f01;
+  color: #ffffff;
+  border-radius: 40px;
+}
+
+select:hover, select:focus {
+  background: #c95601;
+}
+
+
+/*====== FOOTER ======*/
+
+#footer{
+	color: #ffffff;
+	background: rgba(19, 35, 47, 0.9);
+  	width: 100%;
+  	height: auto;
+  	padding-right: 1.5%;
+  	margin-left: -1%;
+	margin-top: 12%;
+}
+
+#footer div{
+	display: inline-block;
+  margin-bottom: 2%;
+}
+
+#footer p.foot_title{
+	text-transform: uppercase;
+	border-bottom: 2px solid #c95601;
+	font-size: 1.2em;
+}
+
+#footer div:nth-child(1){
+	margin-left: 10%;
+}
+
+#footer div:nth-child(2) p{
+	padding: 0.5em;
+	padding-left: 2.5em;
+	background: url(../images/team.png) no-repeat left;
+	background-size: contain;
+}
+
+#footer div:nth-child(2){
+	margin-left: 35%;
+}
+
+#footer div:nth-child(1) p{
+	padding: 0.5em;
+	padding-left: 2.5em;
+	background: url(../images/unipd.png) no-repeat left;
+	background-size: contain;
+}
+
+#footer ul{
+	margin-left: 10%;
+	list-style-type: none;
+}
+
+#footer ul li{
+	margin-bottom: 0.5em;
+}
+
+input, textarea, select{
+  outline: 0;
+}
+
+input:focus, textarea:focus {
+  border-color: #1ab188;
+}
+
+input[type=radio]{
+  width: 20px;
+  height: 20px;
+}
+
+table tr td{
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  font-size: 1.1em;
+  text-align: center;
+}

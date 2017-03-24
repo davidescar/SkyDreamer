@@ -1,0 +1,41 @@
+@import url(base.css);
+
+a.button{
+	position: relative;
+	font-size: 1em;
+	margin-left: 33%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+table tr td{
+	text-align: center;
+	padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+div.form table{
+	margin-bottom: 5%;
+	  margin-top: 5%;
+}
+
+div.form table#queryb{
+  margin-left: 7%;
+}
+
+div.form table#queryc{
+	margin-left: 40%;
+}
+
+div.form table#queryd{
+	margin-left: 15%;
+}
+
+div.form table#querye{
+	margin-left: 20%;
+}
+
+div.form table#queryf{
+    font-size: 0.9em;
+    margin-left: 0%;
+}

@@ -1,0 +1,131 @@
+@import url(base.css);
+
+h3{
+	font-size: 1.4em;
+	text-align: center;
+}
+
+/*====== RESIZE PULSANTI ======*/
+
+.button{
+	width: 10%;
+	font-size: 1em;
+}
+
+/*====== CAMPI RECORD ======*/
+
+.form input{
+	font-size: 1em;
+	padding: 0.5em;
+	min-width: 4.5em;
+	border-radius: 40px;
+}
+
+.form{
+	color: #ffffff;
+	min-width: 900px;
+	margin-left: 20%;
+	margin-right: 10%;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.form div.info{
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	font-size: 1.2em;
+	color: #ffffff;
+}
+
+
+.form div.linea div.info{
+	display: inline-block;
+}
+
+.form div.linea div.info:nth-child(1){
+	margin-right: 11%;
+	margin-left: 16%;
+}
+
+.form div.info input[type=text], .form div.info input[type=date], .form div.info input[type=email], .form div.info input[type=password], form div.info input[type=number]{
+	font-size: 1em;
+	padding: 0.5em;
+	min-width: 4.5em;
+	border-radius: 40px;
+	text-align: center;
+	margin-top: 5%;
+}
+
+
+.form input[type=submit]{
+	margin-left: 20%;
+}
+
+.form div.linea p{
+	margin-left: 15%;
+}
+
+.form div.single{
+	margin-left: 22%;
+}
+
+.form div.last{
+	margin-left: 0%;
+	margin-top: 2.5em;
+	margin-bottom: 1.5em;
+}
+
+.form div.last a{
+	padding: 1em 4em;
+}
+
+.form div.last a:nth-child(1){
+	margin-right: 11.5%;
+}
+
+.form div.last input[type=submit]{
+	width: 25%;
+}
+
+.form div.info a{
+	padding: 1em;
+	font-size: 0.75em;
+	margin-left: 1em;
+}
+
+a.button{
+	width: 10%;
+	font-size: 1em;
+}
+
+div.info{
+	width: 25.5%;
+	height: 10%;
+	text-align: center;
+}
+
+.form div.info-radio{
+	width: 35%;
+}
+
+div.last input.button{
+	padding: 1.8% 0;
+	margin-right: 11%;
+	margin-left: 16.5%;
+}
+
+select{
+	font-size: 1em;
+	margin-top: 5%;
+	padding-top: 4.5%;
+	padding-bottom: 4.5%;
+}
+
+select.cliente{
+	padding-left: 30%;
+	padding-right: 30%;
+}
+
+input[type=number]{
+	width: 50%;
+}

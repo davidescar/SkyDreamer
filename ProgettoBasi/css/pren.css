@@ -1,0 +1,111 @@
+@import url(base.css);
+
+select{
+	font-size: 1.2em;
+	width: 100%;
+	padding-left: 0%;
+	padding-right: 1%;
+	margin-top: 5%;
+}
+
+div.linea ul li:first-child select{
+	padding-left: 45%;
+}
+
+div.linea ul li:last-child select{
+	padding-left: 39%;
+}
+
+label{
+	margin-left: 30%;
+	font-size: 1.2em;
+}
+
+div.linea ul li:last-child label{
+	margin-left: 41%;
+}
+
+input.button{
+	font-size: 1em;
+	width: 30%;
+}
+
+div.linea ul li{
+	display: inline-block;
+	margin-left: 10%;
+}
+
+div.linea ul{
+	list-style: none;
+}
+
+div.linea div.info label{
+	margin-left: 0%;
+}
+
+div.form form input.button{
+	margin-left: 35%;
+	margin-top: 5%;
+}
+
+.form input{
+	font-size: 1em;
+	padding: 0.5em;
+	min-width: 4.5em;
+	border-radius: 40px;
+}
+.form{
+	color: #ffffff;
+	min-width: 900px;
+	margin-left: 18%;
+	margin-right: 10%;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.form div.info{
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	font-size: 1.2em;
+	color: #ffffff;
+}
+
+.form div.linea div.info{
+	display: inline-block;
+}
+.form div.linea div.info:nth-child(1){
+	margin-right: 11%;
+	margin-left: 16%;
+}
+.form div.info input[type=text], .form div.info input[type=date], .form div.info input[type=email], .form div.info input[type=password]{
+	font-size: 1em;
+	padding: 0.5em;
+	min-width: 4.5em;
+	border-radius: 40px;
+	text-align: center;
+	margin-top: 5%;
+	background-color: #c95601;
+	color: white;
+}
+.form input[type=submit]{
+	margin-left: 20%;
+}
+
+div.info{
+	width: 25.5%;
+	height: 10%;
+	text-align: center;
+}
+
+div.info-last{
+	margin-left: 37%;
+}
+
+div.info-last label{
+	margin-left: 0%;
+}
+
+.form div.info input#punti{
+	background-color: #ffffff;
+	color: #000000;
+}

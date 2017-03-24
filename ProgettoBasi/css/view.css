@@ -1,0 +1,54 @@
+@import url(base.css);
+
+/*====== RESIZE PULSANTI ======*/
+
+.button{
+	width: 30%;
+	font-size: 1em;
+	margin: 5% 0;
+	margin-left: 12%;
+}
+
+a.button{
+	padding: 2% 4%;
+	margin-left: 39%;
+}
+
+.form{
+	min-width: 900px;
+}
+
+.form table#aeroporto{
+	margin-left: 15%;
+}
+
+.form table#aereo{
+	margin-left: 28%;
+}
+
+.form table#prenotazione{
+	margin-left: 20%;
+	margin-bottom: 5%;
+}
+
+th{
+	font-style: italic;
+	font-size: 1.1em;
+}
+
+td{
+	padding-bottom: 1em;
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+	text-align: center;
+}
+
+.form table a{
+	color: #ffffff;
+}
+
+.form table a:hover{
+	color: #c95601;
+	transition: 0.3s;
+}

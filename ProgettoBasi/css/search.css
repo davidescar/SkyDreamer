@@ -1,0 +1,75 @@
+@import url(base.css);
+
+/*====== RESIZE PULSANTI ======*/
+
+
+div#op_buttons input.button{
+	width: 40%;
+	padding: 2% 0%;
+	font-size: 1.2em;
+	margin-left: -5%;
+}
+
+div#op_buttons a.button{
+	padding: 2% 15%;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+.form input{
+	font-size: 1em;
+	padding: 0.5em;
+	min-width: 4.5em;
+	border-radius: 40px;
+}
+
+.form select{
+	font-size: 1.2em;
+	min-width: 5em;
+	margin-right: 1em;
+	margin-bottom: 2em;
+}
+
+.form label{
+	font-size: 1.2em;
+}
+
+.form form div{
+	margin: 5% 0;
+	margin-left: 12%;
+}
+
+input[list='partenza']{
+	margin: 0 10%;
+}
+
+input[list='arrivo']{
+	margin: 0 13.5%;
+	margin-right: 10%;
+}
+
+input[type="date"]{
+  margin-left: 5%;
+}
+
+a.button{
+	font-size: 1em;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-left: 32.8%;
+}
+
+div.form div, div.form table{
+	margin-bottom: 5%;
+}
+
+input.button-pren{
+	margin-left: 35%;
+	padding: 2% 8%;
+}
+
+table tr td{
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    min-width: 4em;
+}

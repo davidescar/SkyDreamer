@@ -1,0 +1,132 @@
+@import url(base.css);
+
+h1,h2{
+  text-align: center;
+}
+
+/*====== RESIZE PULSANTI ======*/
+
+.button{
+	width: 10%;
+	font-size: 1em;
+}
+
+/*====== MENU HOME ======*/
+
+#menu{
+  padding-top: 0.3em;
+  padding-left: 2em;
+  font-size: 1.4em;
+  margin-left: 22%;
+  max-width: 850px;
+  min-height: 250px;
+  background: rgba(19, 35, 47, 0.9);
+  border-radius: 40px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+#menu h2{
+  color: #ffffff;
+}
+
+#menu ul, #menu li {
+  text-transform: uppercase;
+  list-style-type: none;
+  padding: 0;
+}
+
+#menu li{
+  margin: 0em 3em 3em 0em;
+}
+
+#menu ul {
+  position: relative;
+  z-index: 597;
+}
+
+#menu ul li a{
+  border-radius: 40px;
+}
+
+#menu ul li {
+  float: left;
+  vertical-align: middle;
+}
+
+#menu ul li:first-child{
+  margin-left: 1.5%;
+}
+
+#menu ul li.hover, #menu ul li:hover {
+  position: relative;
+  z-index: 599;
+}
+
+#menu ul li > ul {
+  visibility: hidden;
+  opacity: 0;
+  transition:opacity 0.5s linear;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  z-index: 598;
+  width: 100%;
+  margin: 0;
+}
+
+#menu ul ul li {
+  float: none;
+  margin: 0em;
+}
+
+#menu ul li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  transition-delay:0.2s;
+}
+
+#menu a {
+  display: block;
+  line-height: 1em;
+  text-decoration: none;
+}
+
+/* Custom CSS Styles */
+
+#menu:after, #menu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#menu ul ul {
+  text-transform: uppercase;
+  min-width: 8em;
+}
+
+#menu ul ul a {
+  background: #ff852c;
+  color: white;
+  border-top: 0 none;
+  line-height: 150%;
+  padding: 16px 20px;
+  text-align: center;
+}
+
+#menu ul ul li:visited > a {
+  background: #4eb1ff;
+  color: white;
+}
+
+#menu ul li:hover > a, #menu ul li.active > a {
+  background: #ff852c;
+  color: black;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+#menu a {
+  background: #de5f01;
+  color: white;
+  padding: 20px 110px;
+}

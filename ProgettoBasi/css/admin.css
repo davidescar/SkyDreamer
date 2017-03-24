@@ -1,0 +1,77 @@
+@import url(base.css);
+
+/*====== RESIZE PULSANTI ======*/
+
+input.button{
+	width: 30%;
+	font-size: 1em;
+	padding: 0.5em 2em;
+}
+
+div#log input.button{
+	padding: 20% 0;
+}
+
+.form ul{
+	margin-left: 2%;
+	list-style-type: none;
+}
+
+form li.sel select{
+	font-size: 1.5em;
+	text-align: center;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	padding-left: 10%;
+	padding-right: 20%;
+}
+
+form li.sel{
+	margin-left: -20%;
+}
+
+.form ul li{
+	margin-bottom: 2em;
+}
+
+.form a{
+	margin-left: 35%;
+}
+
+form li.sel{
+	display: inline-block;
+	margin: 5%;
+}
+
+form li.sel:first-child{
+	margin-left: 12%;
+}
+
+form li input.button{
+	margin-left: 32%;
+	margin-bottom: 2%;
+}
+
+a.button{
+	font-size: 1em;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-left: 32%;
+}
+
+a.button-query{
+	padding: 1.2% 11%;
+	margin-left: 32%;
+}
+
+div.form{
+	padding-left: 2%;
+}
+
+div.form h2{
+	margin-left: 8%;
+}
+
+div.form ul{
+	margin-bottom: 10%;
+}
